@@ -1,0 +1,755 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: block;
+    margin: 0 auto;
+}
+
+.container{
+    height: 597px;
+    background: #070707;
+}
+
+
+.nav_container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+
+.hello{
+    color: #E5E9F0;
+    font-family: Fira Code;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: normal;    
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+}
+
+ul a{
+    list-style: none;
+    text-decoration: none;
+}
+
+.projects{
+    color: rgba(96, 123, 150, 0.50);
+    text-align: center;
+    font-family: Fira Code;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: 35px; 
+}
+
+.about{
+    color: rgba(96, 123, 150, 0.50);
+    text-align: center;
+    font-family: Fira Code;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: 35px; 
+}
+
+.contact{
+    color: rgba(96, 123, 150, 0.50);
+    text-align: center;
+    font-family: Fira Code;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: 35px; 
+}
+
+.name{
+    color: rgba(96, 123, 150, 0.50);
+    font-size: 24px;
+}
+
+.h1_info{
+    color: #E5E9F0;
+    font-family: Fira Code;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: normal;
+}
+
+.I_info{
+    color: #E5E9F0;
+    font-family: Fira Code;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.fullStack_info {
+    color: #4D5BCE;
+    font-family: Fira Code;
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: normal;
+    margin-bottom: 40px;
+    width: 30ch;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 2s steps(30) infinite, blinking 0.5s infinite step-end alternate;
+}
+
+@keyframes typing {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 30ch;
+    }
+}
+
+@keyframes blinking {
+    50% {
+        border-color: transparent;
+    }
+}
+
+.info{
+    padding-left: 228px;
+}
+
+
+.container_info{
+   margin-top: 80px;
+}
+
+.p_info{
+    color: #607B96;
+    font-family: Fira Code;
+    font-size: 16.39px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: normal;
+    margin-bottom: 14px;
+}
+
+.p_info_second{
+    color: #607B96;
+    font-family: Fira Code;
+    font-size: 16.39px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: normal;
+    margin-bottom: 14px;
+}
+
+.const_info{
+    color: #4D5BCE;
+    font-family: Fira Code;
+    font-size: 17.39px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.githubLink{
+    color: #43D9AD;
+    font-family: Fira Code;
+    font-size: 17.39px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 14px;
+}
+
+.igual{
+    color: white;
+    margin-left: 14px;
+}
+
+.link{
+    color: #E99287;
+    font-family: Fira Code;
+    font-size: 17.39px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 14px;
+}
+
+.button_info{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-color: #43D9AD;
+    border-radius: 20px;
+    background-color: transparent;
+    width: 126px;
+    height: 41px;
+    text-align: center;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.span_button{
+    color: white;
+    text-align: center;
+    font-family: Fira Code;
+    font-size: 12.423px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.img_info{
+    height: 16px;
+}
+
+.arvore_info{
+    margin-left: -300px;
+    margin-top: -58px;
+    position: fixed;
+}
+
+.infos{
+    display: flex;
+    align-items: center;
+}
+
+.container_info_info{
+    display: flex;
+    align-items: center;
+}
+
+.img_land{
+    height: 384px;
+    top: -13px;
+    position: relative;
+}
+
+.img_land:hover{
+    transition: 0.3s;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.circulo{
+    position: absolute;
+    padding-left: 12px;
+}
+
+.foto_perfil{
+    padding-top: 5px;
+}
+
+.p_container{
+    color: var(--purple-vs, #4D5BCE);
+    font-family: Fira Code;
+    font-size: 23.106px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    top: 20px;
+    position: relative;
+}
+
+.foto_container{
+    display: flex;
+    gap: 26px;
+    top: 9px;
+    position: relative;
+    margin-bottom: 14px;
+}
+
+.Created_user{
+    color: #607B96;
+    font-family: Fira Code;
+    font-size: 21.234px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: normal;
+    position: relative;
+    top: 65px;
+    right: 276px;
+}
+
+.p_perfil{
+    position: relative;
+    top: 20px;
+}
+
+
+.p_details{
+    color: #607B96;
+    font-family: Fira Code;
+    font-size: 17.101px;
+    font-style: normal;
+    font-weight: 450;
+    display: flex;
+    line-height: normal;
+    align-items: center;
+    gap: 9px;
+    position: relative;
+    top: -15px;
+}
+
+.p_start{
+    color: #607B96;
+    font-family: Fira Code;
+    font-size: 18.101px;
+    font-style: normal;
+    font-weight: 450;
+    display: flex;
+    line-height: normal;
+    align-items: center;
+    gap: 9px;
+    position: relative;
+    top: -15px;
+}
+
+.img_details{
+    height: 28.101px;
+}
+
+.img_star{
+    height: 28.101px;
+}
+
+.created_img{
+    display: flex;
+    gap: 20px;
+}
+
+.about_me{
+    width: 956px;
+    height: 322px;
+    background-color: red;
+    background-color: rgba(1, 18, 33, 1);
+    margin-top: -38px;
+    border-radius: 10px;
+    margin-left: 28px;
+}
+
+
+.About{
+    font-family: Fira Code;
+    font-size: 16.44px;
+    font-weight: 450;
+    line-height: 28px;
+    letter-spacing: 0em;
+    padding-left: 20px;
+    color: rgba(96, 123, 150, 1);
+    display: flex;
+    gap: 14px;
+}
+
+
+
+.about_me_info{
+   color: rgba(67, 217, 173, 1);
+   margin-left: 14px;
+}
+
+.import{
+    color: rgba(77, 91, 206, 1);
+}
+
+.from{
+    color: rgba(77, 91, 206, 1);
+    margin-left: 14px;
+}
+
+.portfolio{
+    color: rgba(233, 146, 135, 1);
+    margin-left: 14px;
+}
+
+.container_about{
+    height: 597px;
+    background: #070707;
+    padding-left: 203px;
+    padding-top: 20px;
+}
+
+.land{
+    margin-top: -60px;
+}
+
+.landd{
+    margin-left: 38px;
+}
+
+
+
+.container_projects{
+    height: 597px;
+    background: #070707;
+}
+
+
+.container_contact{
+    height: 720px;
+    background: rgb(7, 7, 7);
+}
+
+.p_container_p{
+    color: var(--purple-vs, #4D5BCE);
+    font-family: Fira Code;
+    font-size: 23.106px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    top: 49px;
+    position: relative;
+}
+
+.foto_container_container{
+    display: flex;
+    gap: 26px;
+    top: 9px;
+    position: relative;
+    padding-left: 20%;
+}
+
+.container_contact_info{  
+    height: 442px;
+    border-radius: 15px;
+    width: 908px;
+    border: 1px;
+    background-color: rgba(1, 18, 33, 1);
+    margin-top: -33px;
+    margin-left: 28px;
+}
+
+.contact_me_code{
+    font-family: Fira Code;
+    font-size: 16px;
+    font-weight: 450;
+    line-height: 18px;
+    letter-spacing: -0.015em;
+    color: rgba(112, 0, 255, 1);
+    margin-left: 8px;
+}
+
+.chaves{
+    font-family: Fira Code;
+    font-size: 16px;
+    font-weight: 450;
+    line-height: 18px;
+    letter-spacing: -0.015em;
+    color: rgba(255, 255, 255, 1);
+    margin-left: 11px;
+}
+
+.virgula{
+    font-family: Fira Code;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: -0.015em;
+    color: rgba(255, 255, 255, 1);
+}
+
+.e-mail{
+    color: rgba(67, 217, 173, 1);
+    font-family: Fira Code;
+    font-size: 16px;
+    margin-left: 20px;
+}
+
+.phone{
+    color: rgba(67, 217, 173, 1);
+    font-family: Fira Code;
+    font-size: 16px;
+    margin-left: 20px;
+}
+
+.e-mails{
+    color: rgba(233, 146, 135, 1);
+}
+
+.número{
+    color: rgba(255, 255, 255, 1);
+}
+
+.insta{
+    color: rgba(233, 146, 135, 1);
+    text-decoration: underline;
+}
+
+.gitHub{
+    color: rgba(233, 146, 135, 1);
+    text-decoration: underline;
+}
+
+.linkedin{
+    color: rgba(233, 146, 135, 1);
+    text-decoration: underline;
+}
+
+.container_info_contact{
+    margin-bottom: 14px;
+}
+
+.container_p_contact{
+    padding-left: 14%;
+    position: relative;
+    top: 68px;
+}
+
+.row_container{
+    transform: rotate(90deg);
+    width: 290px;
+    top: -125px;
+    position: relative;
+    left: 73%;
+    border-color: rgba(30, 45, 61, 1);
+}
+
+.p_thank{
+    font-family: Fira Code;
+    font-size: 26px;
+    font-weight: 450;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.p_Programming{
+    font-family: Fira Code;
+    font-size: 15px;
+    font-weight: 450;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(96, 123, 150, 1);
+}
+
+.container_container{
+    display: flex;
+    align-items: center;
+    gap: 81px;
+}
+
+.contact_info{
+    position: relative;
+    top: 66px;
+}
+
+.container_stacks{
+    height: 597px;
+    background: #070707;
+}
+
+.p_skills{
+    color: red;
+}
+
+.foto_container_infos{
+    display: flex;
+    gap: 26px;
+    top: 9px;
+    position: relative;
+    margin-bottom: 14px;
+    padding-left: 30%;
+}
+
+.Created_user_infos{
+    color: white;
+    font-family: Fira Code;
+    font-size: 21.234px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: normal;
+    position: relative;
+    top: 65px;
+    right: 276px;
+}
+
+.stack_1{
+    width: 125.46479034423828px;
+    height: 131px;
+    border-radius: 9.22535228729248px;
+    background-color: black;
+    padding-left: 16px;
+    padding-top: 18px;
+}
+
+.stack_1:hover{
+    transition: 0.3s;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.stack_2:hover{
+    transition: 0.3s;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.stack_3:hover{
+    transition: 0.3s;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.stack_4:hover{
+    transition: 0.3s;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.stack_5:hover{
+    transition: 0.3s;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.img_5:hover{
+    transition: 0.3s;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.img_6:hover{
+    transition: 0.3s;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.img_7:hover{
+    transition: 0.3s;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.stack_2{
+    width: 125.46479034423828px;
+    height: 131px;
+    border-radius: 9.22535228729248px;
+    background-color: black;
+    padding-left: 16px;
+    padding-top: 18px;
+}
+
+.stack_3{
+    width: 125.46479034423828px;
+    height: 131px;
+    border-radius: 9.22535228729248px;
+    background-color: black;
+    padding-left: 16px;
+    padding-top: 18px;
+}
+
+
+.img_1{
+    height: 91px;
+}
+
+.img_2{
+    height: 91px;
+}
+
+.img_3{
+    height: 53px;
+    position: relative;
+    top: 19%;
+}
+
+.stack_4{
+    width: 125.46479034423828px;
+    height: 131px;
+    border-radius: 9.22535228729248px;
+    background-color: black;
+    padding-left: 16px;
+    padding-top: 18px;
+}
+
+.stack_5{
+    width: 125.46479034423828px;
+    height: 131px;
+    border-radius: 9.22535228729248px;
+    background-color: black;
+    padding-left: 16px;
+    padding-top: 18px;
+}
+
+.img_4{
+    height: 53px;
+    position: relative;
+    top: 19%;
+    left: 12%;
+}
+
+.stacks{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    justify-content: center;
+}
+
+.img_5{
+    height: 101px;
+    margin-top: 37px;
+}
+
+.img_6{
+    height: 101px;
+    margin-top: 37px;
+    margin-left: 29px;
+}
+
+.img_7{
+    height: 101px;
+    margin-top: 37px;
+    margin-left: 40px;
+}
+
+.stacks_infos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.name{
+    margin-left: 14px;
+}
+
+.code{
+    margin-left: 14px;
+}
+
+.name{
+    font-size: 20px;
+}
+
+.row_container_name{
+    width: 200px;
+}
+
+.span_todos{
+    font-size: 20px;
+}
+
+.land_2{
+    position: relative;
+    top: -384px;
+    margin-left: -186px;
+    height: 119px;
+}
+
+.cloud{
+    height: 196px;
+}
